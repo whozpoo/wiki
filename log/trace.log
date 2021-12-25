@@ -414,3 +414,135 @@ Identify and stop the process that's listening on port 8081 or configure this ap
 2021-12-25 20:32:36.547 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-12-25 20:32:36.547 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2021-12-25 20:32:36.547 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-12-25 20:46:43.137 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:55:08.322 INFO  com.rck.wiki.config.WikiApplication               :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on RockdeMacBook-Pro.local with PID 33054 (/Users/poo/Desktop/wiki/target/classes started by poo in /Users/poo/Desktop/wiki)
+2021-12-25 20:55:08.323 INFO  com.rck.wiki.config.WikiApplication               :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-12-25 20:55:08.342 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-25 20:55:08.342 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-25 20:55:08.626 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2021-12-25 20:55:08.629 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:55:08.630 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-12-25 20:55:08.630 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-12-25 20:55:08.648 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-25 20:55:08.648 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 305 ms
+2021-12-25 20:55:08.709 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:55:08.761 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-12-25 20:55:08.767 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:55:08.775 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2021-12-25 20:55:08.780 INFO  com.rck.wiki.config.WikiApplication               :61   [32m                  [0;39m Started WikiApplication in 0.595 seconds (JVM running for 0.977)
+2021-12-25 20:55:15.512 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:55:21.344 INFO  com.rck.wiki.config.WikiApplication               :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on RockdeMacBook-Pro.local with PID 33061 (/Users/poo/Desktop/wiki/target/classes started by poo in /Users/poo/Desktop/wiki)
+2021-12-25 20:55:21.345 INFO  com.rck.wiki.config.WikiApplication               :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-12-25 20:55:21.364 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-25 20:55:21.364 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-25 20:55:21.620 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2021-12-25 20:55:21.623 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:55:21.623 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-12-25 20:55:21.623 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-12-25 20:55:21.642 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-25 20:55:21.642 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 277 ms
+2021-12-25 20:55:21.705 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:55:21.759 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-12-25 20:55:21.766 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:55:21.777 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2021-12-25 20:55:21.782 INFO  com.rck.wiki.config.WikiApplication               :61   [32m                  [0;39m Started WikiApplication in 0.597 seconds (JVM running for 0.809)
+2021-12-25 20:55:38.372 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:55:38.402 INFO  com.rck.wiki.config.WikiApplication               :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on RockdeMacBook-Pro.local with PID 33061 (/Users/poo/Desktop/wiki/target/classes started by poo in /Users/poo/Desktop/wiki)
+2021-12-25 20:55:38.402 INFO  com.rck.wiki.config.WikiApplication               :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-12-25 20:55:38.455 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2021-12-25 20:55:38.456 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:55:38.456 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-12-25 20:55:38.456 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-12-25 20:55:38.460 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-25 20:55:38.460 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 57 ms
+2021-12-25 20:55:38.475 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:55:38.491 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-12-25 20:55:38.494 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:55:38.495 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2021-12-25 20:55:38.497 INFO  com.rck.wiki.config.WikiApplication               :61   [32m                  [0;39m Started WikiApplication in 0.109 seconds (JVM running for 17.524)
+2021-12-25 20:55:38.498 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-12-25 20:55:40.183 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-25 20:55:40.183 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-25 20:55:40.184 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-12-25 20:55:44.013 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:55:44.062 INFO  com.rck.wiki.config.WikiApplication               :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on RockdeMacBook-Pro.local with PID 33061 (/Users/poo/Desktop/wiki/target/classes started by poo in /Users/poo/Desktop/wiki)
+2021-12-25 20:55:44.063 INFO  com.rck.wiki.config.WikiApplication               :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-12-25 20:55:44.112 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2021-12-25 20:55:44.113 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:55:44.113 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-12-25 20:55:44.113 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-12-25 20:55:44.116 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-25 20:55:44.116 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 52 ms
+2021-12-25 20:55:44.129 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:55:44.143 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-12-25 20:55:44.145 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:55:44.146 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2021-12-25 20:55:44.148 INFO  com.rck.wiki.config.WikiApplication               :61   [32m                  [0;39m Started WikiApplication in 0.102 seconds (JVM running for 23.175)
+2021-12-25 20:55:44.148 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-12-25 20:56:35.496 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-25 20:56:35.496 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-25 20:56:35.497 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-12-25 20:56:44.170 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:56:44.206 INFO  com.rck.wiki.config.WikiApplication               :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on RockdeMacBook-Pro.local with PID 33061 (/Users/poo/Desktop/wiki/target/classes started by poo in /Users/poo/Desktop/wiki)
+2021-12-25 20:56:44.206 INFO  com.rck.wiki.config.WikiApplication               :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-12-25 20:56:44.252 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2021-12-25 20:56:44.253 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:56:44.253 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-12-25 20:56:44.253 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-12-25 20:56:44.256 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-25 20:56:44.256 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 49 ms
+2021-12-25 20:56:44.267 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:56:44.279 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-12-25 20:56:44.282 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:56:44.283 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2021-12-25 20:56:44.284 INFO  com.rck.wiki.config.WikiApplication               :61   [32m                  [0;39m Started WikiApplication in 0.092 seconds (JVM running for 83.311)
+2021-12-25 20:56:44.285 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-12-25 20:56:46.885 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-25 20:56:46.886 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-12-25 20:56:46.886 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2021-12-25 20:56:49.790 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:56:49.834 INFO  com.rck.wiki.config.WikiApplication               :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on RockdeMacBook-Pro.local with PID 33061 (/Users/poo/Desktop/wiki/target/classes started by poo in /Users/poo/Desktop/wiki)
+2021-12-25 20:56:49.834 INFO  com.rck.wiki.config.WikiApplication               :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-12-25 20:56:49.876 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2021-12-25 20:56:49.876 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:56:49.876 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-12-25 20:56:49.876 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-12-25 20:56:49.879 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-25 20:56:49.879 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 44 ms
+2021-12-25 20:56:49.890 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:56:49.898 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-12-25 20:56:49.900 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:56:49.902 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2021-12-25 20:56:49.904 INFO  com.rck.wiki.config.WikiApplication               :61   [32m                  [0;39m Started WikiApplication in 0.083 seconds (JVM running for 88.93)
+2021-12-25 20:56:49.904 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-12-25 20:57:25.691 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:57:25.869 INFO  com.rck.wiki.config.WikiApplication               :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on RockdeMacBook-Pro.local with PID 33061 (/Users/poo/Desktop/wiki/target/classes started by poo in /Users/poo/Desktop/wiki)
+2021-12-25 20:57:25.870 INFO  com.rck.wiki.config.WikiApplication               :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-12-25 20:57:25.928 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2021-12-25 20:57:25.928 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:57:25.929 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-12-25 20:57:25.929 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-12-25 20:57:25.932 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-25 20:57:25.932 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 60 ms
+2021-12-25 20:57:25.943 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:57:25.952 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-12-25 20:57:25.954 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:57:25.956 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2021-12-25 20:57:25.957 INFO  com.rck.wiki.config.WikiApplication               :61   [32m                  [0;39m Started WikiApplication in 0.239 seconds (JVM running for 124.984)
+2021-12-25 20:57:25.958 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-12-25 20:57:31.476 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:57:31.518 INFO  com.rck.wiki.config.WikiApplication               :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on RockdeMacBook-Pro.local with PID 33061 (/Users/poo/Desktop/wiki/target/classes started by poo in /Users/poo/Desktop/wiki)
+2021-12-25 20:57:31.519 INFO  com.rck.wiki.config.WikiApplication               :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-12-25 20:57:31.561 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8882 (http)
+2021-12-25 20:57:31.562 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:57:31.562 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-12-25 20:57:31.562 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-12-25 20:57:31.565 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-12-25 20:57:31.565 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 46 ms
+2021-12-25 20:57:31.574 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-25 20:57:31.582 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-12-25 20:57:31.584 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8882"]
+2021-12-25 20:57:31.585 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8882 (http) with context path ''
+2021-12-25 20:57:31.587 INFO  com.rck.wiki.config.WikiApplication               :61   [32m                  [0;39m Started WikiApplication in 0.081 seconds (JVM running for 130.613)
+2021-12-25 20:57:31.587 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2021-12-25 20:58:16.984 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
