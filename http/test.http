@@ -1,0 +1,25 @@
+GET http://localhost:8081/hello
+#Accept: application/json
+
+
+> {%
+// build a unit test
+client.test("test-hello", function() {
+    client.log("testing port /hello")
+    client.log(response.body);
+    client.log(JSON.stringify(response.body));
+
+    client.assert(response.status === 200, "code returned is not 200")
+    client.assert(response.body === "Hello World!", "Test failed")
+})
+ %}
+
+###
+
+
+POST http://localhost:8081/hello/post
+Content-Type: application/x-www-form-urlencoded
+
+name=TEST
+
+###
